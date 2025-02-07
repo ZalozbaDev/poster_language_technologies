@@ -58,9 +58,9 @@
 % ====================
 
 \footercontent{
-  \href{https://www.example.com}{https://zalozba.de} \hfill
+  \href{https://zalozba.de}{https://zalozba.de} \hfill
   LT4All 2025, Paris \hfill
-  \href{mailto:youremail}{d.zoba@zalozba.de}}
+  \href{mailto:d.zoba@zalozba.de}{d.zoba@zalozba.de}}
 % (can be left out to remove footer)
 
 % ====================
@@ -83,7 +83,7 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Speech recognition}
+  \begin{block}{Speech recognition (HSB)}
 
     \heading{Traditional approach}
 
@@ -105,11 +105,17 @@
     
   \end{block}
 
-  \begin{alertblock}{Simultaneous translation}
+  \begin{block}{Simultaneous translation (HSB)}
 
     combination of recognition and translation
 
-  \end{alertblock}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\colwidth]{webcaptioner_klein.png}
+        \label{fig:webcaptioner}
+    \end{figure}
+
+  \end{block}
 
 \end{column}
 
@@ -117,7 +123,7 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Machine translation}
+  \begin{block}{Machine translation (HSB/DSB)}
 
     sotra project
 
@@ -130,7 +136,7 @@
 
   \end{block}
 
-  \begin{block}{Language research}  
+  \begin{block}{Language research (HSB/DSB)}  
   
     \heading{sorbian institute}
 
@@ -152,13 +158,19 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Language learning}
+  \begin{block}{Language learning (HSB)}
 
     \heading{soblex}
     
     soblex project\cite{soblex}
 
     dictionary
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\colwidth]{soblex_suche.png}
+        \label{fig:soblexsearch}
+    \end{figure}
 
     flexions
 
@@ -178,13 +190,13 @@
 
   \begin{block}{Speech synthesis}
 
-    \heading{Traditional approach}
+    \heading{Traditional approach (HSB/DSB)}
 
     MaryTTS
 
     \includegraphics[width=\colwidth]{marytts_small.png}
 
-    \heading{AI approach}
+    \heading{AI approach (HSB)}
 
     Coqui TTS (bamborak\cite{bamborak})
 
