@@ -14,8 +14,8 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter} % default
-% \usepackage[orientation=landscape,size=a0,scale=1.4]{beamerposter} % custom
+\usepackage[size=custom,width=81,height=145,scale=1.0]{beamerposter} % default
+% \usepackage[orientation=portrait,size=a1,scale=1.0]{beamerposter} % custom
 % scale: scaling factor of all font
 
 \usetheme{gemini}
@@ -38,10 +38,12 @@
 % (N+1)*\sepwidth + N*\colwidth = \paperwidth
 \newlength{\sepwidth}
 \newlength{\colwidth}
-\setlength{\sepwidth}{0.02\paperwidth}
-\setlength{\colwidth}{0.225\paperwidth}
+\setlength{\sepwidth}{0.03\paperwidth}
+\setlength{\colwidth}{0.48\paperwidth}
 
 \newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
 
 % ====================
 % Title
@@ -79,45 +81,33 @@
 
 \begin{frame}[t]
 \begin{columns}[t]
-\separatorcolumn
+%\separatorcolumn
 
 \begin{column}{\colwidth}
 
-\include{speech_recognition}
+\include{01_speech_recognition}
 
-\include{simultan_translation}
+\include{02_machine_translation}
+
+\include{03_simultan_translation}
+
+\include{04_language_research}
 
 \end{column}
 
-\separatorcolumn
+%\separatorcolumn
 
 \begin{column}{\colwidth}
 
-\include{machine_translation}
+\include{05_language_practice}
 
-\include{language_research}
+\include{06_speech_synthesis}
 
-\end{column}
-
-\separatorcolumn
-
-\begin{column}{\colwidth}
-
-\include{language_practice}
+\include{07_references_global}  
 
 \end{column}
 
-\separatorcolumn
-
-\begin{column}{\colwidth}
-
-\include{speech_synthesis}
-
-\include{references_global}  
-
-\end{column}
-
-\separatorcolumn
+%\separatorcolumn
 \end{columns}
 \end{frame}
 
