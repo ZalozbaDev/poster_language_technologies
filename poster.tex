@@ -83,39 +83,9 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Speech recognition (HSB)}
+\include{speech_recognition}
 
-    \heading{Traditional approach}
-
-    recITKS (proprietary) - optionally Kaldi
-        
-    \heading{AI approach}
-
-    Huggingface whisper
-
-    \heading{Applications}
-
-    Youtube subtitles/translations (working)
-
-    \includegraphics[width=\colwidth]{citanje.png}
-
-    Subtitles/translations in web conferences (Jitsi, in progress)
-    
-    Offline transcriptions (working)
-    
-  \end{block}
-
-  \begin{block}{Simultaneous translation (HSB)}
-
-    combination of recognition and translation
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.8\colwidth]{webcaptioner_klein.png}
-        \label{fig:webcaptioner}
-    \end{figure}
-
-  \end{block}
+\include{simultan_translation}
 
 \end{column}
 
@@ -123,34 +93,9 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Machine translation (HSB/DSB)}
+\include{machine_translation}
 
-    sotra project
-
-    \begin{itemize}
-      \item \textbf{needed} corpus management
-      \item \textbf{provided technology} Fairseq
-    \end{itemize}
-
-    \includegraphics[width=\colwidth]{sotra.png}
-
-  \end{block}
-
-  \begin{block}{Language research (HSB/DSB)}  
-  
-    \heading{sorbian institute}
-
-    hornjoserbsce.de
-
-    dolnoserbski.de
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.7\colwidth]{hornjoserbsce_gross.png}
-        \label{fig:hornjoserbsce}
-    \end{figure}
-
-  \end{block}
+\include{language_research}
 
 \end{column}
 
@@ -158,29 +103,7 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Language learning (HSB)}
-
-    \heading{soblex}
-    
-    soblex project\cite{soblex}
-
-    dictionary
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.7\colwidth]{soblex_suche.png}
-        \label{fig:soblexsearch}
-    \end{figure}
-
-    flexions
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.7\colwidth]{soblex_klein.png}
-        \label{fig:soblex}
-    \end{figure}
-
-  \end{block}
+\include{language_practice}
 
 \end{column}
 
@@ -188,33 +111,9 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Speech synthesis}
+\include{speech_synthesis}
 
-    \heading{Traditional approach (HSB/DSB)}
-
-    MaryTTS
-
-    \includegraphics[width=\colwidth]{marytts_small.png}
-
-    \heading{AI approach (HSB)}
-
-    Coqui TTS (bamborak\cite{bamborak})
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.75\colwidth]{bamborak_small.png}
-        \label{fig:bamborak}
-    \end{figure}
-    
-
-  \end{block}
-  
-  \begin{block}{References}
-
-%    \nocite{*}
-    \footnotesize{\bibliographystyle{plain}\bibliography{poster}}
-
-  \end{block}
+\include{references_global}  
 
 \end{column}
 
