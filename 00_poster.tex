@@ -15,7 +15,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[size=custom,width=81,height=145,scale=1.0]{beamerposter} % default
-% \usepackage[orientation=portrait,size=a1,scale=1.0]{beamerposter} % custom
+%\usepackage[orientation=portrait,size=a1,scale=1.0]{beamerposter} % custom
 % scale: scaling factor of all font
 
 \usetheme{gemini}
@@ -45,6 +45,9 @@
 
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
 
+\addtobeamertemplate{block begin}{\vskip -\bigskipamount}{}
+\addtobeamertemplate{block end}{}{\vskip -\bigskipamount}
+
 % ====================
 % Title
 % ====================
@@ -70,8 +73,8 @@
 % ====================
 
 % use this to include logos on the left and/or right side of the header:
-\logoright{\includegraphics[height=7cm]{SfdsV_Logo2015_CMYK.jpg}}
-\logoleft{\includegraphics[height=7cm]{FHG_Logo.png}}
+\logoright{\includegraphics[height=7cm]{00_z_01_SfdsV_Logo2015_CMYK_border.jpg}}
+\logoleft{\includegraphics[height=7cm]{00_z_02_FHG_Logo.png}}
 
 % ====================
 % Body
