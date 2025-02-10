@@ -1,3 +1,8 @@
+# 00 generic remarks
+
+* both Upper and Lower Sorbian languages covered
+    * look at each heading
+
 # 01 speech recognition
 
 * traditional approach
