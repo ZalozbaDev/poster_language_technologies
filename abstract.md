@@ -10,10 +10,11 @@ Most of the technology and knowledge is publicly availabe. We value every contri
 
 # Upper Sorbian
 
-Na tutym posteru namakaće přehlad wšitkich zjawne přistupnych technologiskich resursow hornjo- a delnjoserbšćiny, tak kaž woni wužiwarjam přistupne su.
 
-Zo bychu so rěčne rumy zdźerželi, hdźež móže so w přitomnosće němcow dale serbować, je zestajenje simultaneho přełožka ze serbšćiny do němčiny jedyn z našich jadrowych nadawkow.
+Na tutym posteru namakaće přehlad wšitkich technologiskich resursow za  hornjo- a delnjoserbšćinu, kotrež su wužiwarjam zjawnje přistupne.
 
-Za wutworjenje tajkeho systema dyrbimy najprjedy na jednotliwych technologijach dźěłać. Poster pokazuje wuslědki w kóždym z tutych třoch wobłukow spóznawanje rěče, mašinelny přełožk a synteza rěče. Nimo toho su wuslědki z přisłušneho zakładneho slědźenja zapřijete.
+Zo bychu so rěčne rumy zdźerželi, w kotrychž móže so w přitomnosći Němcow dale serbować, je simultane přełožowanje ze serbšćiny do němčiny jedyn z našich jadrowych nadawkow.
 
-Najwjetši dźěl technologije a wědy je zjawnje k dispoziciji. Wažimy sej kóždy přinošk k tutym systemam.
+Za wutworjenje tajkeho systema dyrbimy najprjedy jednotliwe technologije wuwić. Poster pokazuje wuslědki w kóždym z třoch wobłukow - spóznawanje rěče, mašinelny přełožk a synteza rěče. Nimo toho su wuslědki z přisłušneho zakładneho slědźenja zapřijate.
+
+Najwjetši dźěl technologije a wědy steji zjawnje k dispoziciji. Wažimy sej kóždy přinošk k tutym systemam.
