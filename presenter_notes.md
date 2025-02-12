@@ -2,12 +2,12 @@
 
 * both Upper and Lower Sorbian languages covered
     * look at each heading
-* current state, further development, help
+* current state, outlook to further development, feedback appreciated
 
 # 01 speech recognition
 
 * traditional approach
-    * recIKTS - Kaldi possible for OSS
+    * recIKTS (Kaldi possible for OSS)
 * AI approach
     * huggingface whisper (finetuned to HSB)
 * Applications
@@ -25,7 +25,7 @@
 * utilize methods published at WMT conferences
 * results and training methods published (open content), corpus not (yet)
 * outlook: improve translation accuracy and quality
-    * get rid of improper 1:1 translations, reduce the influence of German into Upper/Lower Sorbian
+    * get rid of improper 1:1 translations, reduce the influence of German into Upper/Lower Sorbian - e.g. translate to "nice/good" Sorbian
 
 # 03 simultan translation
 
